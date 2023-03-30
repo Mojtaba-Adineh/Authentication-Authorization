@@ -1,0 +1,86 @@
+.navbar {
+  height: 70px;
+  width: 50%;
+  background-color: #023e8a;
+  margin: auto;
+  border-radius: 0 0 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgb(12, 64, 119) 0px 20px 30px -10px;
+
+  ul {
+    display: flex;
+    a {
+      text-decoration: none;
+      li {
+        list-style-type: none;
+        color: rgb(255, 255, 255);
+        // background-color: #0077b6;
+        border-bottom: 2px solid #0077b6;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 0 10px;
+        transition: all ease 1s;
+
+        &.home {
+          border-bottom-left-radius: 25px;
+        }
+
+        &.login,
+        &.logout {
+          border-bottom-right-radius: 25px;
+        }
+
+        &.logout {
+          &:hover {
+            border-color: red;
+          }
+        }
+
+        &:hover {
+          border-color: aliceblue;
+        }
+      }
+    }
+  }
+}
+
+.popUp {
+  position: absolute;
+  top: -100px;
+  right:45%;
+  color: white;
+  border-radius: 5px;
+  background-color: #292d34;
+  padding: 10px;
+  transition: all 1s ease;
+
+  &.active{
+    top: 100px;
+  }
+
+  .btn-container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+    button{
+        padding: 3px 5px;
+        margin: 0 5px;
+        border: none;
+
+        &:nth-child(1){
+            &:hover{
+                background-color: rgb(219, 74, 16);
+            }
+        }
+
+        &:nth-child(2){
+            &:hover{
+                background-color: #0077b6;
+            }
+        }
+    }
+  }
+}
