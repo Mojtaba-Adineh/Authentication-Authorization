@@ -24,5 +24,5 @@ then install dependencies:
 
 and run the app:
 
-### 'npm run dev'
+### 'npm run dev' 
 
