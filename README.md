@@ -2,7 +2,7 @@
 
 In the project change directory:
 
-### 'cd /api'
+### `cd /api`
 
 then install dependencies:
 
@@ -16,13 +16,13 @@ then for running the project
 
 first change directory:
 
-### 'cd /client' 
+### `cd /client` 
 
 then install dependencies:
 
-### 'npm install'
+### `npm install`
 
 and run the app:
 
-### 'npm run dev' 
+### `npm run dev` 
 
